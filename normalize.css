@@ -144,9 +144,8 @@ button:focus {
   outline: none;
 }
 
-#countdown {
-    margin: 30px;
-    padding: 20px;
+#countdown li {
+    padding-top: 10px;
 }
 
 #spoiler_button {
