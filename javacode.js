@@ -26,13 +26,15 @@
         document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
         document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
 
-        if (distance < 0) {
-          document.getElementById("headline").innerText = "Акция завершена!";
+if (distance < 0) {
+          document.getElementById("headline").innerText = "Акция!";
           document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
           clearInterval(x);
         }
-      }, 0);
-}());
+        //seconds
+      }, 0)
+  }());
 
 var divToggleVis = document.getElementById('spoiler_text');
 var button = document.getElementById('spoiler_button');
