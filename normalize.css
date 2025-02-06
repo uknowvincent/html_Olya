@@ -68,6 +68,14 @@ html, body {
     font-size: 18px;
 }
 
+.landing .header .links li a:hover {
+    background-color: aqua;
+}
+
+.landing .header .links li a:active {
+    background-color: #00bcd4;
+}
+
 .landing .info {
     width: 100%;
     float: left;
