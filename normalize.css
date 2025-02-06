@@ -160,6 +160,10 @@ button:focus {
   outline: none;
 }
 
+#bg-photo-overlay {
+    display: none; /* Это полностью скроет overlay */
+}
+
 #spoiler_button {
     cursor: pointer;
     border: 0;
