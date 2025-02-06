@@ -171,16 +171,18 @@ button:focus {
     font-size: 18px;
 }
 
-.fadeout {
+.fadein, .fadeout {
   height: 0;
-  opacity: 0;
-  transition: opacity 1s ease-in-out, height 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  opacity: 0;  
 }
+
 
 .fadein {
   height: 100%;
   opacity: 1;
-  transition: opacity 1s ease-in-out, height 1s ease-in-out;
 }
 
 #additional p {
