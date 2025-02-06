@@ -32,7 +32,7 @@
           clearInterval(x);
         }
       }, 0);
-})();
+}());
 
 var divToggleVis = document.getElementById('spoiler_text');
 var button = document.getElementById('spoiler_button');
