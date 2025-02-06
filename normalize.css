@@ -116,17 +116,15 @@ li {
   color: navy;
   font-size: 18px;
 }
-#countdown li { 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 10px; 
-}
 
 li span {
   display: block;
   font-size: 4.5rem;
 }
+
+#countdown ul { display: flex; justify-content: center; padding: 0; list-style: none; }
+#countdown li { text-align: center; margin: 10px; }
+#countdown li span { display: block; font-size: 3rem; font-weight: bold; color: white; }
 
 @media all and (max-width: 768px) {
   h2 {
