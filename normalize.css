@@ -126,8 +126,6 @@ li span {
   font-size: 4.5rem;
 }
 
-#countdown li { text-align: center; margin: 20px; }
-
 @media all and (max-width: 768px) {
   h2 {
     font-size: calc(1.5rem * var(--smaller));
