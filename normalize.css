@@ -47,18 +47,6 @@ html, body {
     cursor: pointer;
 }
 
-.landing .header .links li a {
-    display: inline-block;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 18px;
-    color: #FFF;
-    background-color: #6c63ff;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
 .landing .header .links li:last-child {
     border: 0;
     border-radius: 20px;
@@ -66,14 +54,6 @@ html, body {
     color: #FFF;
     background-color: #6c63ff;
     font-size: 18px;
-}
-
-.landing .header .links li a:hover {
-    background-color: aqua;
-}
-
-.landing .header .links li a:active {
-    background-color: #00bcd4;
 }
 
 .landing .info {
