@@ -36,17 +36,14 @@ if (distance < 0) {
       }, 0)
   }());
 
-var divToggleVis = document.getElementById('spoiler_text');
-var button = document.getElementById('spoiler_button');
-button.onclick = function() {
-    if (divToggleVis.className === 'fadeout') {
-        divToggleVis.className = 'fadein';
-    } else {
-        divToggleVis.className = 'fadeout';
-    }
-    if (button.innerHTML === 'Узнать подробности') {
-        button.innerHTML = 'Скрыть';
-    } else {
-        button.innerHTML = 'Узнать подробности';
-    }
-};
+document.addEventListener("DOMContentLoaded", function () {
+            var divToggleVis = document.getElementById('spoiler_text');
+            var button = document.getElementById('spoiler_button');
+
+            button.addEventListener("click", function () {
+                divToggleVis.classList.toggle('fadein');
+                divToggleVis.classList.toggle('fadeout');
+
+                button.innerHTML = button.innerHTML === 'Узнать подробности' ? 'Скрыть' : 'Узнать подробности';
+            });
+        });
