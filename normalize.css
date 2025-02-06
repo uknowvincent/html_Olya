@@ -12,6 +12,7 @@ html, body {
     margin: 0;
     background: url("https://images.squarespace-cdn.com/content/v1/6296f3e6c0f69e7dd46d9076/b533fe46-8202-4dbb-99c8-330fa1784d85/7.png");
     background-size: cover;
+    background-color: transperent
 }
 
 .box {
@@ -94,6 +95,7 @@ html, body {
   color: transparent;
   margin: 0 auto;
   text-align: center;
+  background-color: transparent
 }
 
 .landing .info p {
@@ -144,6 +146,7 @@ button:focus {
 
 #countdown {
     margin: 30px;
+    padding: 20px;
 }
 
 #spoiler_button {
