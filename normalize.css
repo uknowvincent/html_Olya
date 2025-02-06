@@ -49,7 +49,7 @@ html, body {
 
 .landing .header .links li a {
     display: inline-block;
-    padding: 10px 18px;
+    padding: 10px;
     border-radius: 20px;
     font-size: 18px;
     color: #FFF;
