@@ -167,12 +167,12 @@ button:focus {
     border-radius: 20px;
     padding: 10px 18px;
     color: #FFF;
-    background-color: aqua;
+    background-color: darkslateblue;
     font-size: 18px;
 }
 
 .fadein, .fadeout {
-  height: 0;
+  height: auto;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   -webkit-transition: opacity 1s ease-in-out;
