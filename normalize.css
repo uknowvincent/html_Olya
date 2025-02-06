@@ -142,6 +142,10 @@ button:focus {
   outline: none;
 }
 
+#countdown {
+    margin: 10px;
+}
+
 #spoiler_button {
  	border: 0;
     border-radius: 20px;
