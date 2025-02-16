@@ -119,6 +119,7 @@ header button {
 
 .container {
   width: 200%;
+  color: transparent;
 }
 
 .packages {
