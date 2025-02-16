@@ -137,7 +137,7 @@ header button {
   border-radius: 20px;
   box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
   flex-wrap: wrap;
-  color: #f4f4f4;
+  color: black;
 }
 
 h1, h2 {
@@ -148,7 +148,7 @@ h1, h2 {
 .list li {
   font-size: 20px;
   list-style: none;
-  border-bottom: 1px solid #f4f4f4;
+  border-bottom: 1px solid black;
   padding-inline-start: 0;
   border-width: 1px;
   padding: 10px;
@@ -156,7 +156,7 @@ h1, h2 {
 
 .first {
   margin-top: 40px;
-  border-top: 1px solid #f4f4f4;
+  border-top: 1px solid black;
 }
 
 .list {
