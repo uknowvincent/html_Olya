@@ -5,6 +5,7 @@
   text-align: center;
   text-decoration: none;
   color: transparent;
+  background-color: transparent;
   width: 120%;
 }
 
@@ -66,7 +67,7 @@ header #brand:before {
   position: absolute;
   width: 110%;
   height: 60px;
-  background-image: url("background.jpg");
+  -image: url("https://i.pinimg.com/originals/62/b5/0e/62b50e6ccdd4da844ae0fc3a2859325e.jpg");
   bottom: -10px;
   left: -5%;
   border-radius: 60px;
