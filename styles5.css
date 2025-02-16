@@ -9,7 +9,7 @@
 
 body {
   background-image: url("https://i.pinimg.com/originals/62/b5/0e/62b50e6ccdd4da844ae0fc3a2859325e.jpg");
-  background-size: contain;
+  background-size: cover;
   font-family: "Roboto", sans-serif;
   overflow: auto;
 }
