@@ -33,7 +33,7 @@ $('.landing-left').slick({
     $('.landing-text').slick('slickGoTo', nextSlide);
  $('.landing-p').slick('slickGoTo', nextSlide);
   }
-}).on("wheel", function(event) {
+}).on("mousewheel", function(event) {
   event.preventDefault();
   if (event.deltaX > 0 || event.deltaY < 0) {
     $(this).slick('slickNext');
