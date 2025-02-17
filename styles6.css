@@ -18,19 +18,26 @@ html {
   overflow: hidden;
 }
 
-.landing a {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+.the-most a {
     color: #ff9900;
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.landing a:hover {
+.the-most a:hover {
     color: #00ccff;
+}
+
+.includer a {
+    color: #ff3366;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.includer a:hover {
+    color: #66ff33;
 }
 
 .landing .slider {
