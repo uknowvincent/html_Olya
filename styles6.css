@@ -18,14 +18,14 @@ html {
   overflow: hidden;
 }
 
-.the-most a {
+.most a {
     color: #ff9900;
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.the-most a:hover {
+.most a:hover {
     color: #00ccff;
 }
 
